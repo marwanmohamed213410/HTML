@@ -1,0 +1,8 @@
+title     => GA
+href      => NO
+src       => NO
+hidden    => GA
+charset   => NO
+class     => GA
+id        => GA
+type      => NO
