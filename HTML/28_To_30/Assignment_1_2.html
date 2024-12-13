@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>suiiii</h2>
+    <form method="get" action="Assignment_1.html">
+      <label for="user-name">username:</label>
+      <input
+        id="user-name"
+        type="text"
+        autofocus
+        minlength="5"
+        maxlength="20"
+        name="user-name"
+      />
+      <hr />
+
+      <label for="email">password:</label>
+      <input id="email" type="email" value="o@o.com" name="email" disabled />
+      <hr />
+
+      <label for="password">password:</label>
+      <input id="password" type="password" name="password" />
+      <hr />
+
+      <label for="select">select your skills:</label>
+      <select id="select" multiple>
+        <option>Planning</option>
+        <option>Analysis</option>
+        <option>Advanced Search</option>
+        <option>Problem Solving</option></select
+      ><br />
+      <hr />
+
+      <label for="job">job:</label>
+      <select id="job">
+        <option>Scrum Master</option>
+        <option>Project Manager</option>
+        <option>Business Analyst</option>
+        <option>Back-End Developer</option>
+        <option>Front-End Developer</option>
+      </select>
+      <br />
+
+      <label for="token" hidden>token:</label>
+      <input
+        id="token"
+        type="text"
+        hidden
+        value="b92f1fc2fce391ad7af633723afd3055"
+        name="token"
+      />
+
+      <input type="reset" value="Empty" />
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
